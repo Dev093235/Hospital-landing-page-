@@ -5,42 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CarePlus Hospital</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
-  <section class="hero">
-    <h1>CarePlus Hospital</h1>
-    <p>Compassion. Innovation. Excellence.</p>
-    <a href="#contact" class="cta">Book Appointment</a>
-  </section>
 
-  <section class="services">
-    <h2>Our Services</h2>
-    <div class="grid">
-      <div class="card">🩺 General Medicine</div>
-      <div class="card">❤️ Cardiology</div>
-      <div class="card">🧠 Neurology</div>
-      <div class="card">👶 Pediatrics</div>
+  <header class="navbar">
+    <h1>CarePlus 🏥</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">Why Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="overlay">
+      <h2>Your Health, Our Priority</h2>
+      <p>Compassionate care. Trusted professionals.</p>
+      <a href="#contact" class="cta-btn">Book Appointment</a>
     </div>
   </section>
 
-  <section class="testimonials">
-    <h2>What Our Patients Say</h2>
-    <blockquote>"The doctors here saved my life. Truly grateful!"</blockquote>
-    <blockquote>"Clean, professional, and caring staff. Highly recommend."</blockquote>
+  <section id="services" class="section">
+    <h3>Our Services</h3>
+    <div class="cards">
+      <div class="card"><i class="fas fa-user-md"></i><p>Expert Doctors</p></div>
+      <div class="card"><i class="fas fa-heartbeat"></i><p>Cardiology</p></div>
+      <div class="card"><i class="fas fa-x-ray"></i><p>Radiology</p></div>
+    </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
+  <section id="about" class="section">
+    <h3>Why Choose Us</h3>
+    <ul>
+      <li>24/7 Emergency Support</li>
+      <li>Advanced Equipment</li>
+      <li>Patient-Centered Care</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h3>Book Your Appointment</h3>
     <form>
       <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea placeholder="Your Message"></textarea>
-      <button type="submit">Send</button>
+      <input type="email" placeholder="Email" required />
+      <input type="date" required />
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Submit</button>
     </form>
   </section>
 
   <footer>
-    <p>&copy; 2025 CarePlus Hospital. All rights reserved.</p>
+    <p>&copy; 2025 CarePlus Hospital | Made by Dev 💻</p>
+    <div class="socials">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
   </footer>
+
 </body>
-      </html>
+                    </html>
